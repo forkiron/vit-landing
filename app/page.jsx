@@ -81,14 +81,27 @@ export default function HomePage() {
           </div>
         </section>
 
-        <a
+        <div
           className={`github-link${revealed ? " revealed" : ""}`}
-          href="https://github.com/LucasHJin/vit"
-          target="_blank"
-          rel="noopener noreferrer"
+          role="group"
+          aria-label="Links"
         >
-          Check out the GitHub
-        </a>
+          <a
+            href="https://github.com/LucasHJin/vit"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github
+          </a>
+          <span aria-hidden="true">|</span>
+          <a
+            href="https://www.youtube.com/watch?v=phS28hhJSP8"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            demo vid
+          </a>
+        </div>
       </section>
     </main>
   );

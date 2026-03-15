@@ -361,7 +361,7 @@ a {
   z-index: 5;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   padding: 8px 18px;
   border-radius: 999px;
   font-family: var(--display-font);
@@ -369,9 +369,18 @@ a {
   font-weight: 500;
   letter-spacing: -0.02em;
   color: rgba(255, 252, 247, 0.96);
-  text-decoration: none;
   transition: opacity 2s cubic-bezier(0.25, 0.1, 0.25, 1);
   opacity: 0;
+}
+
+.github-link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.github-link span {
+  color: rgba(255, 252, 247, 0.5);
+  user-select: none;
 }
 
 .github-link.revealed {
