@@ -51,15 +51,16 @@ export default function HomePage() {
         />
 
         <section className={`hero-copy${revealed ? " revealed" : ""}`}>
-          <h1 className="hero-subtitle">Git for Video Editing</h1>
+          <h1 className="hero-subtitle">git for video editing</h1>
 
           <div className="download-wrapper" ref={wrapperRef}>
+            <p className="download-hint">try it in davinci!</p>
             <div className="download-button">
               <button
                 className="download-main"
                 onClick={() => setDropdownOpen((o) => !o)}
               >
-                <span>{copied ? "Copied!" : "Download"}</span>
+                <span>{copied ? "paste in terminal!" : "install command"}</span>
                 <svg className={`download-arrow${dropdownOpen ? " open" : ""}`} width="12" height="8" viewBox="0 0 12 8" fill="none">
                   <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
