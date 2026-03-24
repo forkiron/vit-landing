@@ -201,20 +201,6 @@ a {
   text-wrap: balance;
 }
 
-.hero-subtitle::after {
-  content: "Version control for DaVinci Resolve";
-  display: block;
-  margin-top: 16px;
-  font-size: 1.05rem;
-  font-weight: 500;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  opacity: 0.75;
-  text-shadow: 0 0 20px rgba(0,0,0,0.9), 0 2px 8px rgba(0,0,0,0.95);
-  text-wrap: unset;
-  position: relative;
-  z-index: 5;
-}
 
 .download-wrapper {
   position: relative;
