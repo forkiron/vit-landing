@@ -2,9 +2,30 @@ import "./globals.css";
 
 export const metadata = {
   title: "vit",
-  description: "A cinematic coming-soon landing page for VIT.",
+  description: "Git for Video Editing — version control for DaVinci Resolve.",
   icons: {
     icon: "/favicon.png",
+  },
+  openGraph: {
+    title: "vit",
+    description: "Git for Video Editing — version control for DaVinci Resolve.",
+    url: "https://vit-editor.vercel.app",
+    siteName: "vit",
+    images: [
+      {
+        url: "/paul-reiffer.jpg",
+        width: 1200,
+        height: 630,
+        alt: "vit — Git for Video Editing",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "vit",
+    description: "Git for Video Editing — version control for DaVinci Resolve.",
+    images: ["/paul-reiffer.jpg"],
   },
 };
 
